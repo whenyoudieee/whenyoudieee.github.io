@@ -71,8 +71,16 @@ a.expand:hover {
 .header {
 	height: 100px;
 	background: #ccccff;
-	font-style: italic;
-	font-size: 15px;
+	/*font-style: italic;
+	font-size: 15px; */
+	h1{
+		font-weight: lighter;
+		font-size: 80px;
+		color: #fff;
+		text-align: center;
+		padding-top: 50px;
+		margin-bottom: 0;
+	}
 	
 
 }
@@ -81,8 +89,11 @@ a.expand:hover {
 /* Middle
 -----------------------------------------------------------------------------*/
 .middle {
-	border-right: 250px solid #FFACAA;
+	border-right: 280px solid #FFACAA;
 	position: relative;
+	
+	background-image: url("https://hdqwalls.com/download/minimalism-birds-mountains-trees-forest-9k-1920x1080.jpg"); 
+
 }
 .middle:after {
 	display: table;
@@ -103,12 +114,53 @@ a.expand:hover {
 /* Right Sidebar
 -----------------------------------------------------------------------------*/
 .right-sidebar {
+	font-style: italic;
+	font-size: 15px;
 	float: right;
 	margin-right: -250px;
 	width: 250px;
 	position: relative;
 	background: #FFACAA;
+	
+	list-style: none;
+		margin: 20px 30p;
+		display: inline-block;
+		font-size: 17px;
+		padding: 20px 20px;
+		color: #fff;
+		border: 1px solid #fff;
+		border-radius: 30%;
+		transition: .5s;
+	h1{
+		font-weight: lighter;
+		font-size: 80px;
+		color: #fff;
+		text-align: center;
+		padding-top: 50px;
+		margin-bottom: 0;
+	}
+	
+	
 }
+	h1{
+		font-weight: lighter;
+		font-size: 30px;
+		color: #fff;
+		text-align: center;
+		padding-top: 30px;
+		margin-bottom: 0;
+	}
+li {
+		list-style: none;
+		margin: 10px 30p;
+		display: inline-block;
+		font-size: 20px;
+		padding: 20px 20px;
+		color: #fff;
+		border: 1px solid #fff;
+		border-radius: 50%;
+		transition: .5s;
+	}
 
 
 /* Footer
@@ -116,4 +168,7 @@ a.expand:hover {
 .footer {
 	height: 50px;
 	background: #ccccff;
+	$blue-color : #3b5998;
+$gray-color : #eee;
+	
 }
