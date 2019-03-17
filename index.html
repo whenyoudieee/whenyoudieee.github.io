@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8" />
 	<!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script><![endif]-->
-	<title>Artem Chorniy</title>
+	<title></title>
 	<meta name="keywords" content="" />
 	<meta name="description" content="" />
 	<link href="style.css" rel="stylesheet">
@@ -11,14 +11,42 @@
 	<script type="text/javascript">
 		alert("Доступ лише для студентів Кн-204");
 	</script>
-	 <img src="http://faviconka.ru/ico/faviconka_ru_918.png"/>
-	 <style>
+	 
+		<style>
    .text {
     text-align:  center;
    }
-  </style>
+		</style>
+		<style>
+	.mtext {
+	text-align: center;
+	style: "color:black";
+		}
+		</style>
 	
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#menu" ).menu();
+  } );
+  </script>
+  <style>
+  .ui-menu { width: 30px; }
+  </style>
+
+  <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
 </head>
+
+
 
 <body>
 
@@ -37,19 +65,68 @@
 	</header><!-- .header-->
 
 	<div class="middle">
-
+<div class="container">
+  <p><a href="https://artemchorniy111.github.io/">Bootstrap</a></p>
+	</div>
 		<div class="container">
 			<main class="content">
 			 <p>Adobe Color - веб-сервіс, що дозволяє створювати пробні і остаточні варіанти колірних тем для використання
   в проекті і надавати доступ до них. В Adobe Color CC вбудовано панель «Колір»,
   що дозволяє переглядати і застосовувати колірні теми або помічені як обрані в додатку Adobe Color.</p>
+  <div class="text">
   <img src="http://www.indesignskills.com/wp-content/uploads/2016/02/Color-wheel-analogous.jpg" height="400"/>
+  </div>
+  <!-- .menu -->
+	<div class="container">
+ <ul id="menu"; style="list-style-type:disc;">
+ 
+  <li><div>МЕНЮ</div></li>
+  <li><div >Vegas</div>
+  <ul>
+      <li class="ui-state-disabled"><div>Pro12</div></li>
+      <li><div>Pro13</div></li>
+      <li><div>Other</div></li>
+    </ul>
+  </li>
+  
+  <li><div>Adobe</div>
+    <ul>
+      <li class="ui-state-disabled"><div>CC15</div></li>
+      <li><div>CC16</div></li>
+      <li><div>Pro15</div></li>
+    </ul>
+  </li>
+  <li><div>Other</div></li>
+  
+  
+</ul>
+</div>
+
+
+ <p style="color:#fff"> ТАБЛИЦЯ </p>
+ 
+<table class="mtext">
+  <tr>
+    <th>Vegas</th>
+    <th>Adobe</th>
+  </tr>
+  <tr>
+    <td>Pro13</td>
+    <td>CC15</td>
+  </tr>
+  <tr>
+    <td>Pro12</td>
+    <td>CC16</td>
+  </tr>
+</table>
+
+
   <p>
   <iframe width="420" height="315"
 	src="https://www.youtube.com/embed/tgbNymZ7vqY">
 	</iframe></p>
 	<p>
-	
+			
 	<p>
 	
 	src="<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4328.09114136482!2d24.00980166021044!3d49.83309226921148!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add7a31f0dccd%3A0x9869cc7025bc8e3f!2sLviv+Polytechnic+National+University!5e0!3m2!1sen!2sua!4v1552219612395" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>">
@@ -68,7 +145,6 @@
 	</div><div class="siInf"><p>вологість: <span id="vl1">60%</span></p><p>тиск: <span id="dav1">725 мм</span></p>
 	<p>вітер: <span id="wind1">5.0 м/с, північно-західний</span></p></div></div></div></a>
 	<a>
-	
 	
 	</a>
 <div class="wrapper">
@@ -98,12 +174,19 @@
 	</div><!-- .middle-->
 
 	<footer class="footer">
-
-	
+	<div class="container">
+ <button class="btn btn-success">Viktoria</button>
+	</div>
 	</footer><!-- .footer -->
 
 </div><!-- .wrapper -->
 
-
+ 
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="ui/jquery-ui.js"></script>
 </body>
+
 </html>
