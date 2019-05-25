@@ -1,0 +1,269 @@
+html {
+  font-family: "Arvo", serif;
+  font-size: 16px;
+  background: #fceff6;
+  color: black;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+img {
+  display: inline-block;
+}
+
+/*
+----------------------------
+--------HEADER--------------
+----------------------------
+*/
+
+.header_line {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding-top: 10px;
+  padding-right: 65px;
+  padding-bottom: 20px;
+  background-color: black;
+}
+
+.logo {
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 400px;
+  margin-bottom: 5px;
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.logo a {
+  text-decoration: none;
+}
+
+.first_span {
+  color: #f9f9ed; /*Sneakers*/
+}
+
+.second_span {
+  color: #d552f9; /*Design*/
+}
+
+.top_menu {
+  cursor: default;
+}
+
+.top_menu ul > li {
+  margin-left: 30px;
+  margin-top: 7px;
+  padding-bottom: 4px;
+  list-style: none;
+  float: left;
+  color: white;
+}
+
+.submenuList {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+}
+
+.genre:hover .submenuList{
+  display: flex;
+}
+
+.top_menu ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.top_menu ul li a.sing_up {
+  color: gainsboro;
+}
+
+.top_menu ul li a.log_in {
+  color: gainsboro;
+}
+
+.top_menu ul li a:hover,
+.top_menu ul li:hover {
+  color: #f79bc9;
+  cursor: pointer;
+}
+
+.header_content {
+  color: whitesmoke;
+  background: black;
+  background-image: url("../img/newsneakers.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+}
+
+.header_title {
+  color: whitesmoke; /*Будь ст...*/
+  padding-top: 30px;
+  font-size: 66px;
+  margin-bottom: 40px;
+  margin-top: -50px;
+  font-family: "Merriweather", serif;
+}
+
+.header_desc {
+  font-size: 28px;
+  line-height: 42px;
+  color: white;
+  font-family: "Merriweather", serif;
+}
+
+.title_content {
+  background-color: #e0dedf;
+  color: #261403;
+  margin-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 740px;
+  font-size: 25px;
+  line-height: 40px;
+}
+
+/*
+----------------------------
+-----------GRID-------------
+----------------------------
+*/
+
+.row:after {
+  clear: both;
+  content: "";
+  display: table; 
+}
+
+.col_0 {
+  margin-left: 15px;
+  width: 340px;
+  margin-top: 20px;
+  margin-right: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  float: left;
+}
+
+.col_1 {
+  margin-left: 15px;
+  width: 340px;
+  margin-top: 20px;
+  margin-right: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  float: left;
+}
+
+.col_1:last-child {
+  margin-right: 0px;
+}
+
+.col_0:last-child {
+  margin-right: 0px;
+}
+
+/*
+----------------------------
+------PORTFOLIO-------------
+----------------------------
+Стилізація контенту
+*/
+
+.container_item_img {
+  width: 300px;
+  border: 5px solid black;
+}
+
+.container_item_img:hover {
+  border-color: white;
+}
+
+.name_actor {
+  margin-top: 10px;
+  font-size: 18px;
+  margin-bottom: 50px;
+  text-align: center;
+  height: 20px;
+  border: 2px solid black;
+}
+
+.name_actor a {
+  text-decoration: none;
+  color: black;
+}
+
+
+
+/*
+----------------------------
+---------FOOTER-------------
+----------------------------
+*/
+
+.footer {
+  font-size: 12px;
+  padding-top: 20px;
+  margin-top: 50px;
+  color: whitesmoke;
+  background: black;
+}
+
+.row_footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.coll {
+  margin-left: 85px;
+}
+
+.main_element {
+  color: grey;
+  text-transform: uppercase;
+}
+
+.footer_link {
+  margin-top: 20px;
+}
+
+.footer_link a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.footer_link a:hover {
+  color: #f79bc9;
+}
+
+.row_end {
+  margin-top: 40px;
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+}
+
+.row_end a {
+  margin: 15px;
+  font-size: 10px;
+  text-decoration: none;
+  color: gray;
+}
+
+.row_end a:hover {
+  color: #f79bc9;
+}

@@ -1,0 +1,285 @@
+html {
+  font-family: "Arvo", serif;
+  font-size: 16px;
+  background: #fceff6;
+  color: black;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+
+img {
+  display: inline-block;
+}
+
+/*
+----------------------------
+--------HEADER--------------
+----------------------------
+*/
+.header_line {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding-top: 10px;
+  padding-right: 65px;
+  padding-bottom: 20px;
+  background-color: black;
+}
+
+.logo {
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 400px;
+  margin-bottom: 5px;
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.logo a {
+  text-decoration: none;
+}
+
+.first_span {
+  color: #f9f9ed; /*Sneakers*/
+}
+
+.second_span {
+  color: #d552f9; /*Design*/
+}
+
+.top_menu {
+  cursor: default;
+}
+
+.top_menu ul > li {
+  margin-left: 30px;
+  margin-top: 7px;
+  padding-bottom: 4px;
+  list-style: none;
+  float: left;
+  color: white;
+}
+
+.submenuList {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+}
+
+.genre:hover .submenuList{
+  display: flex;
+}
+
+.top_menu ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.top_menu ul li a.sing_up {
+  color: gainsboro;
+}
+
+.top_menu ul li a.log_in {
+  color: gainsboro;
+}
+
+.top_menu ul li a:hover,
+.top_menu ul li:hover {
+  color: #f79bc9;
+  cursor: pointer;
+}
+/*
+.header_line {
+  margin-top: -10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding-top: 10px;
+  padding-right: 65px;
+  padding-bottom: 20px;
+  background-color: black;
+}
+
+.logo {
+  margin-top: 18px;
+  margin-left: 20px;
+  margin-right: 400px;
+  margin-bottom: 5px;
+  padding-left: 20px;
+  font-size: 20px;
+}
+
+.logo a {
+  text-decoration: none;
+}
+
+.first_span {
+  color: blue;
+}
+
+.second_span {
+  color: red;
+}
+
+.top_menu{
+  cursor: default;
+}
+
+.top_menu ul li {
+  margin-left: 30px;
+  margin-top: 7px;
+  padding-bottom: 4px;
+  list-style: none;
+  float: left;
+  color: white;
+}
+
+.top_menu ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.top_menu ul li a.sing_up {
+  color: gainsboro;
+}
+
+.top_menu ul li a.log_in {
+  color: gainsboro;
+}
+
+.top_menu ul li a:hover {
+  color: green;
+}
+ */
+.content_body {
+  margin: 0px;
+  padding: 0px;
+  background: gainsboro;
+  font-size: 16px;
+  color: black;
+  font-family: sans-serif;
+  font-weight: 300px;
+}
+
+#login-box {
+  position: relative;
+  margin: 5% auto;
+  height: 400px;
+  width: 600px;
+  background: #f4e8ee;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.left-box {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  box-sizing: border-box;
+  padding: 40px;
+  width: 300px;
+  height: 400px;
+}
+
+h1 {
+  margin: 0px 0px 20px 0px;
+  font-weight: 300px;
+  font-size: 28px;
+}
+
+input[type="text"],
+input[type="password"] {
+  display: block;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  padding: 4px;
+  width: 220px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #aaa;
+  font-family: sans-serif;
+  font-weight: 400px;
+  font-size: 15px;
+  transition: 0.2s ease;
+}
+
+input[type="submit"] {
+  margin-bottom: 28px;
+  width: 120px;
+  height: 32px;
+  background: #f44336;
+  border: none;
+  border-radius: 2px;
+  color: white;
+  font-family: sans-serif;
+  font-weight: 500px;
+  text-transform: uppercase;
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="sumbit"]:focus {
+  background: #ff5722;
+  transition: 0.2s ease;
+}
+
+.right-box {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  box-sizing: border-box;
+  padding: 40px;
+  width: 300px;
+  height: 400px;
+  background-image: url(../img/voguelog.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.or {
+  position: absolute;
+  top: 180px;
+  left: 280px;
+  width: 40px;
+  height: 40px;
+  background: #efefef;
+  border-radius: 50%;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.6);
+  line-height: 40px;
+  text-align: center;
+}
+
+.right-box .loginwith {
+  display: block;
+  margin-bottom: 40px;
+  font-size: 28px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+button.social {
+  margin-bottom: 20px;
+  width: 220px;
+  height: 36px;
+  border: none;
+  border-radius: 2px;
+  color: #fff;
+  font-family: sans-serif;
+  font-weight: 500px;
+  transition: 0.2 ease;
+  cursor: pointer;
+}
+
+.facebook {
+  background: #32508e;
+}
+
+.twitter {
+  background: #55acee;
+}
+
+.google {
+  background: #dd4b39;
+}

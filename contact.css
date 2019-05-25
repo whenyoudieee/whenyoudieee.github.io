@@ -1,0 +1,186 @@
+html {
+  font-family: "Arvo", serif;
+  font-size: 16px;
+  background: #fceff6;
+  color: black;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+img {
+  display: inline-block;
+}
+
+/*
+  ----------------------------
+  --------HEADER--------------
+  ----------------------------
+  */
+
+
+.header_line {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding-top: 10px;
+  padding-right: 65px;
+  padding-bottom: 20px;
+  background-color: black;
+}
+
+.logo {
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 400px;
+  margin-bottom: 5px;
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.logo a {
+  text-decoration: none;
+}
+
+.first_span {
+  color: #f9f9ed; /*Sneakers*/
+}
+
+.second_span {
+  color: #d552f9; /*Design*/
+}
+
+.top_menu {
+  cursor: default;
+}
+
+.top_menu ul > li {
+  margin-left: 30px;
+  margin-top: 7px;
+  padding-bottom: 4px;
+  list-style: none;
+  float: left;
+  color: white;
+}
+
+.submenuList {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+}
+
+.genre:hover .submenuList{
+  display: flex;
+}
+
+.top_menu ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.top_menu ul li a.sing_up {
+  color: gainsboro;
+}
+
+.top_menu ul li a.log_in {
+  color: gainsboro;
+}
+
+.top_menu ul li a:hover,
+.top_menu ul li:hover {
+  color: #f79bc9;
+  cursor: pointer;
+}
+/*.header_line {
+  margin-top: -10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding-top: 10px;
+  padding-right: 65px;
+  padding-bottom: 20px;
+  background-color: black;
+}
+
+.logo {
+  margin-top: 18px;
+  margin-left: 20px;
+  margin-right: 400px;
+  margin-bottom: 5px;
+  padding-left: 20px;
+  font-size: 20px;
+}
+
+.logo a {
+  text-decoration: none;
+}
+
+.first_span {
+  color: blue;
+}
+
+.second_span {
+  color: red;
+}
+
+.top_menu {
+  cursor: default;
+}
+
+.top_menu ul li {
+  margin-left: 30px;
+  margin-top: 7px;
+  padding-bottom: 4px;
+  list-style: none;
+  float: left;
+  color: white;
+}
+
+.top_menu ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.top_menu ul li a.sing_up {
+  color: gainsboro;
+}
+
+.top_menu ul li a.log_in {
+  color: gainsboro;
+}
+
+.top_menu ul li a:hover {
+  color: green;
+}
+*/
+
+.table_f {
+  background-image: url(../img/contactus.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  text-align: center;
+  color: white;
+}
+
+.table {
+  margin-top: 45px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row_tr_h th {
+  color: whitesmoke;
+}
+
+.row_tr td {
+  padding: 20px;
+  color: white;
+ 
+}
+
+.img_my {
+  text-align: center;
+  margin-top: 100px;
+}
+
+
