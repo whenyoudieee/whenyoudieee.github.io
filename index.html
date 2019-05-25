@@ -1,192 +1,263 @@
 <!DOCTYPE html>
-<html>
+<html lang="eng">
+
 <head>
-	<meta charset="utf-8" />
-	<!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script><![endif]-->
-	<title></title>
-	<meta name="keywords" content="" />
-	<meta name="description" content="" />
-	<link href="style.css" rel="stylesheet">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
-	<script type="text/javascript">
-		alert("Доступ лише для студентів Кн-204");
-	</script>
-	 
-		<style>
-   .text {
-    text-align:  center;
-   }
-		</style>
-		<style>
-	.mtext {
-	text-align: center;
-	style: "color:black";
-		}
-		</style>
-	
-	<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-  <link rel="stylesheet" href="/resources/demos/style.css">
-  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-  <script>
-  $( function() {
-    $( "#menu" ).menu();
-  } );
-  </script>
-  <style>
-  .ui-menu { width: 30px; }
-  </style>
+    <!--Інформація для бровзера-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <title>Sneakers</title>
+    <!--Нормалізація стилів-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
 
-  <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--Підключення власних стилів-->
+    <link rel="stylesheet" href="css/main.css">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+    <!--Підключення веб-шрифтів-->
+    <link href="https://fonts.googleapis.com/css?family=Arvo|Kaushan+Script|Merriweather" rel="stylesheet">
 </head>
 
-
-
 <body>
+    <!--
+        Основна шапка, зверху, з кнопками
+    -->
+    <div class="header_line">
+        <div class="logo">
+            <a href="index.html">
+                <span class="first_span">Sneakers</span>
+                <span class="second_span">Design</span>
+            </a>
+        </div>
+        <div class="top_menu">
+            <ul>
+                <li><a href="#">Головне</a></li>
+              	<li class="genre">Новинки
+                    <ul class="submenuList">
+                        <li><a href="#">Топ 2019</a></li>
+                        <li><a href="#">Останній місяць</a></li>
+                        <li><a href="#">Топ дня</a></li>
+                    </ul>
+                </li>
+                <li class="genre">Види кросівок
+                    <ul class="submenuList">
+                        <li><a href="#">Звичайні</a></li>
+                        <li><a href="#">Для бігу</a></li>
+                        <li><a href="#">High fashion</a></li>
+                        <li><a href="#">Весна-літо</a></li>
+                        <li><a href="#">Осінь-зима</a></li>
+                        <li><a href="#">Інші</a></li>
+                    </ul>
+                </li>
+                <li><a href="html/contact.html">Зв'язатись з нами</a></li>
+                <li>|</li>
+                <li><a class="sing_up" href="html/SignUp.html">Sing up</a></li>
+                <li><a class="log_in" href="html/LogIn.html">Log in</a></li>
+            </ul>
+        </div>
+    </div>
 
-<div class="wrapper">
+    <!--
+        HEADER, після основної шапки
+    -->
+    <div class="header_content">
+        <div class="header_buttons"></div>
+        <div class="header_title">Будь стильним кожного дня</div>
+    </div>
 
-	<header class="header">
-		<div class="text"
-		<h1 style="color:#ff0000">Artem Chorniy Kn-204:</h1>
-		<p>
-		
-		</p>
-		
-  <p style="color:#ff0500">WEB DESIGN & Adobe Color </p>
- </div>
- 
-	</header><!-- .header-->
+    <!--
+        PORTFOLIO
+    -->
 
-	<div class="middle">
-<div class="container">
-  <p><a href="https://artemchorniy111.github.io/">Bootstrap</a></p>
-	</div>
-		<div class="container">
-			<main class="content">
-			 <p>Adobe Color - веб-сервіс, що дозволяє створювати пробні і остаточні варіанти колірних тем для використання
-  в проекті і надавати доступ до них. В Adobe Color CC вбудовано панель «Колір»,
-  що дозволяє переглядати і застосовувати колірні теми або помічені як обрані в додатку Adobe Color.</p>
-  <div class="text">
-  <img src="http://www.indesignskills.com/wp-content/uploads/2016/02/Color-wheel-analogous.jpg" height="400"/>
-  </div>
-  <!-- .menu -->
-	<div class="container">
- <ul id="menu"; style="list-style-type:disc;">
- 
-  <li><div>МЕНЮ</div></li>
-  <li><div >Vegas</div>
-  <ul>
-      <li class="ui-state-disabled"><div>Pro12</div></li>
-      <li><div>Pro13</div></li>
-      <li><div>Other</div></li>
-    </ul>
-  </li>
-  
-  <li><div>Adobe</div>
-    <ul>
-      <li class="ui-state-disabled"><div>CC15</div></li>
-      <li><div>CC16</div></li>
-      <li><div>Pro15</div></li>
-    </ul>
-  </li>
-  <li><div>Other</div></li>
-  
-  
-</ul>
-</div>
+    <!--Загаловок списку акторів-->
+    <div class="title_content">Топ моделі індустрії взуття</div>
 
+    <div class="container">
+        <div class="row">
+            <!--Робота з [0;0] елементом-->
+            <div class="col_0">
+                <div>
+                    <div>
+                        <a href="#">
+                            <img class="container_item_img" src="img/airforcee.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="name_actor">
+                        <a href="https://www.yoox.com/ru/11696471JN/item#dept=men&sts=sr_men80&cod10=11696471JN&sizeId=&sizeName=">
+                            Nike Air Force
+                        </a>
+                    </div>
+                  
+                </div>
+            </div>
+            <!--Робота з [0;1] елементом-->
+            <div class="col_0">
+                <div>
+                    <div>
+                        <a href="#">
+                            <img class="container_item_img" src="img/airmax95.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="name_actor">
+                        <a href="https://www.yoox.com/ru/11539691US/item#dept=men&sts=sr_men80&cod10=11539691US&sizeId=6&sizeName=40.5">
+                            Nike Air Max 95
+                        </a>
+                    </div>
+                    
+                </div>
+            </div>
+            <!--Робота з [0;2] елементом-->
+            <div class="col_0">
+                <div>
+                    <div>
+                        <a href="#">
+                            <img class="container_item_img" src="img/airmax97.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="name_actor">
+                        <a href="https://www.yoox.com/ru/11685213GJ/item#dept=men&sts=sr_men80&cod10=11685213GJ&sizeId=&sizeName=">
+                            Nike Air Max 97 Classic
+                        </a>
+                    </div>
+                  
+                </div>
+            </div>
+            <!--Робота з [0;3] елементом-->
+            <div class="col_0">
+                <div>
+                    <div>
+                        <a href="#">
+                            <img class="container_item_img" src="img/nmd.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="name_actor">
+                        <a href="https://www.yoox.com/ru/11651057HK/item#dept=men&sts=sr_men80&cod10=11651057HK&sizeId=&sizeName=">
+                            Adidas Originals NMD
+                        </a>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!--Робота з [1;0] елементом-->
+            <div class="col_1">
+                <div>
+                    <div>
+                        <a href="#">
+                            <img class="container_item_img" src="img/jordan.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="name_actor">
+                        <a href="https://www.yoox.com/ru/11705307CE/item#dept=men&sts=sr_men80&cod10=11705307CE&sizeId=&sizeName=">
+                            Nike Jordan 
+                        </a>
+                    </div>
+                    
+                </div>
+            </div>
+            <!--Робота з [2;1] елементом-->
+            <div class="col_1">
+                <div>
+                    <div>
+                        <a href="#">
+                            <img class="container_item_img" src="img/martens.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="name_actor">
+                        <a href="https://www.yoox.com/ru/11237693JC/item#dept=men&sts=sr_men80&cod10=11237693JC&sizeId=&sizeName=">
+                            DR. Martens
+                        </a>
+                    </div>
+                   
+                </div>
+            </div>
+            <!--Робота з [2;2] елементом-->
+            <div class="col_1">
+                <div>
+                    <div>
+                        <a href="#">
+                            <img class="container_item_img" src="img/timberland.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="name_actor">
+                        <a href="https://www.yoox.com/ru/11598714WO/item#dept=men&sts=sr_men80&cod10=11598714WO&sizeId=&sizeName=">
+                            Timberland Classic
+                        </a>
+                    </div>
+                    
+                </div>
+            </div>
+            <!--Робота з [2;3] елементом-->
+            <div class="col_1">
+                <div>
+                    <div>
+                        <a href="#">
+                            <img class="container_item_img" src="img/max720.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="name_actor">
+                        <a href="https://www.yoox.com/ru/11670222WJ/item#dept=men&sts=sr_men80&cod10=11670222WJ&sizeId=&sizeName=">
+                           Nike Air Max 720
+                        </a>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--
+        FOOTER
+    -->
+    <div class="footer">
+        <div class="row_footer">
+            <div class="coll">
+                <div class="main_element">Ми</div>
+                <div class="footer_link">
+                    <a href="#">Про нас</a>
+                </div>
+                <div class="footer_link">
+                    <a href="#">Магазин</a>
+                </div>
+             </div>
+            <div class="coll">
+                <div class="main_element">Зв'язок</div>
+                <div class="footer_link">
+                    <a href="#">Електронна адреса</a>
+                </div>
+                <div class="footer_link">
+                    <a href="#">Онлайн допомога</a>
+                </div>
+            </div>
+            <div class="coll">
+                <div class="main_element">Інше</div>
+                <div class="footer_link">
+                    <a href="#">Допомога</a>
+                </div>
+                <div class="footer_link">
+                    <a href="#">Адреси магазинів</a>
+                </div>
+            </div>
+        </div>
 
- <p style="color:#fff"> ТАБЛИЦЯ </p>
- 
-<table class="mtext">
-  <tr>
-    <th>Vegas</th>
-    <th>Adobe</th>
-  </tr>
-  <tr>
-    <td>Pro13</td>
-    <td>CC15</td>
-  </tr>
-  <tr>
-    <td>Pro12</td>
-    <td>CC16</td>
-  </tr>
-</table>
-
-
-  <p>
-  <iframe width="420" height="315"
-	src="https://www.youtube.com/embed/tgbNymZ7vqY">
-	</iframe></p>
-	<p>
-			
-	<p>
-	
-	src="<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4328.09114136482!2d24.00980166021044!3d49.83309226921148!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add7a31f0dccd%3A0x9869cc7025bc8e3f!2sLviv+Polytechnic+National+University!5e0!3m2!1sen!2sua!4v1552219612395" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>">
-	
-	<p>
-  
-		</main><!-- .content -->
-		
-		</div><!-- .container-->
-
-		<aside class="right-sidebar">
-			<strong>     ...Погода:</strong> <a onmousedown="siClickCount();" href="https://ua.sinoptik.ua/погода-львів" title="Погода у Львові" target="_blank" rel="nofollow">
-	<div class="siCity"><div class="siCityName">Погода у <span>Львові</span></div>
-	<div id="siCont1" class="siBodyContent"><div class="siLeft">
-	<div class="siTerm"></div><div class="siT" id="siT1">+5°</div><div id="weatherIco1" class="weatherIco d300"></div>
-	</div><div class="siInf"><p>вологість: <span id="vl1">60%</span></p><p>тиск: <span id="dav1">725 мм</span></p>
-	<p>вітер: <span id="wind1">5.0 м/с, північно-західний</span></p></div></div></div></a>
-	<a>
-	
-	</a>
-<div class="wrapper">
-	<h1> Приєднайся:) </h1>
-	<p> Соціальні медіа:  </p>
-	
-	<div class="media">
-	<ul>
-	
-	<li><i class="fab fa-facebook"></i>
-
-</li>
-	<li><i class="fab fa-instagram"></i>
-
-</li>
-	<li><i class="fab fa-twitter"></i>
-
-</li>
-	
-	</ul>
-	</div>
- </div>
-	
-		
-		</aside><!-- .right-sidebar -->
-
-	</div><!-- .middle-->
-
-	<footer class="footer">
-	<div class="container">
- <button class="btn btn-success">Viktoria</button>
-	</div>
-	</footer><!-- .footer -->
-
-</div><!-- .wrapper -->
-
- 
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="ui/jquery-ui.js"></script>
+        <div class="row_end">
+            <div class="end_link">
+                <a href="#">Legal/license</a>
+            </div>
+            <div class="end_link">
+                <a href="#">Confidentialy</a>
+            </div>
+            <div class="end_link">
+                <a href="#">Privacy Policy</a>
+            </div>
+            <div class="end_link">
+                <a href="#">Cookies</a>
+            </div>
+            <div class="end_link">
+                <a href="#">About Ads</a>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
